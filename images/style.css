@@ -7,44 +7,46 @@
 .main{}
 
 .navbar{
-    width: 1200px;
-    height: 75px;
-    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width : 100%;
+   padding: 10px 5%;
 }
 
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
+.icon, .menu {
+    width: auto;
+    float: none;
+    height: auto;
 }
 
 .logo{
     color:darkorange;
     font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    float: none;
+    padding-top: 0px;
 }
 
-.menu{
+.menu {
     width: 400px;
-    float: left;
+    float: center;
     height: 70px;
     
 }
 
-.ul{
+ul {
     float: left;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 ul li{
     list-style: none;
     margin-left: 62px;
-    margin-top: 27px;
+    margin-top: 10px;
     font-size: 20px;
 }
 
